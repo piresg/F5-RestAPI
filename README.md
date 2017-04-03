@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-Get current Pools => F5::Pool.list("10.64.42.2")
+# Get current Pools 
+`F5::Pool.list("10.64.42.2", "username","password")`
 
 
 ## Development
@@ -33,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/F5-RestAPI. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/piresg/F5-RestAPI. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
