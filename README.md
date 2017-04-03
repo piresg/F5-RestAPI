@@ -22,8 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Get current Pools
-F5::Pool.list("10.64.42.2")
+Get current Pools => F5::Pool.list("10.64.42.2")
 
 
 ## Development
