@@ -6,8 +6,8 @@ require 'F5/RestAPI/version'
 Gem::Specification.new do |spec|
   spec.name          = "F5-RestAPI"
   spec.version       = F5::RestAPI::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Gonçalo Pires"]
+  spec.email         = ["goncalo.pires@outlook.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
@@ -32,4 +32,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency "httparty", "0.14.0"
 end
