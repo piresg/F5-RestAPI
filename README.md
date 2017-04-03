@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Get current Pools
+F5::Pool.list("10.64.42.2")
+
 
 ## Development
 
